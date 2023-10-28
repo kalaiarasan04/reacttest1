@@ -1,0 +1,114 @@
+
+1.What is react?
+     * React is a free and open source front-end javascript library for building user interface based on components.
+     * React can be used to develop single-page,web aplication.
+     *Fast user interface for wensites and application like easily.
+     *React js is virtual DOM.
+
+<!-- ============================================================================================================== -->
+
+2.What is component?
+     * Components are resuable bits of code.
+     * They are two types,
+         1.Function component
+         2.Class component
+        
+<!-- ============================================================================================================== -->
+
+3.Write function syntax?
+     
+     import React from 'react'
+
+     const Home=()=>{
+        
+        return(
+
+            <div>
+            
+            </div>
+        )
+     }
+
+     export default Home
+<!-- ============================================================================================================== -->
+
+4.Write class syntax?
+
+    import React, {Component} from 'react'
+
+    class Home extends Component{
+        
+        render(){
+        
+            return(
+                <div>
+                
+                </div>
+            )
+        }
+    }
+
+    export default Home
+
+<!-- ============================================================================================================== -->
+
+5.Write example for internal style?
+     
+     import React from 'react'
+
+     const Home=()=>{
+        const style={
+            color:"red",
+            fontSize:"30px",
+            textAlign:"center"
+        }
+        return(
+            <div>
+                <h4 style={style}>React</h4>
+            </div>
+        )
+     }
+
+     export default Home
+<!--===============================================================================================================-->
+
+6.What is JSX?
+
+     * JSX stands for javascript XML.
+     * JSX allows us to write HTML in react.
+     * JSX makes it easier to write and add HTML in react.
+
+< -- ============================================================================================================= -->
+
+7.What are the advantage of react?
+
+     * Single page web aplication.
+     * virtual DOM.
+     * Component based architecture.
+
+<-- ============================================================================================================== -->
+
+8.Difference between virtual DOM and real DOM ?
+
+  virtual DOM-:
+          
+        * It is check the specific component modify only.
+  real DOM-:
+
+       * It is check the code by line line.
+
+<-- =============================================================================================================== -->
+
+9.Write any three packages?
+
+     1.npm install react-icons.
+     2.npm install slick-carousel.
+     3.npm install sass.
+<-- ============================================================================================================== -->
+
+10.What is props?
+
+     * Props is a object.
+     * Parent component is used to access the data on child component.
+
+<-- ============================================================================================================== -->
